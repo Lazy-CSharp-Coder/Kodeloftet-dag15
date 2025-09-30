@@ -21,11 +21,10 @@ function gatherData()
 
     const displayFormInputs = document.querySelector("#displayFormInputs");
     const displayNumberInput = document.querySelector("#displayNumberInput");
-    const displayAllInput = document.querySelector("#diplayAllInput");
+    const displayAllInput = document.querySelector("#displayAllInput");
   
   // Create elements
   const displayGreeting = document.createElement("p");
-
 
   // M = Modifisere elementer
 
