@@ -10,15 +10,21 @@ function gatherData()
   // H = Hente elementer
 
     const greetingInput = document.querySelector("#greetingInput");
+    const nubmerInput = document.querySelector("#numberInput");
     const greetingInputValue = greetingInput.value;
+    const numberInputValue = nubmerInput.value;
+    
     console.log(greetingInput);
     console.log(greetingInputValue);
 
     const displayFormInputs = document.querySelector("#displayFormInputs");
+    const displayNumberInput = document.querySelector("#numberInput");
+    const displayEmailInput = document.querySelector("#emailInput");
   
   // M = Modifisere elementer
 
     displayFormInputs.textContent = greetingInputValue;
+    displayNumberInput.textContent = numberInputValue;
    
 
   // S = Sende elementer
