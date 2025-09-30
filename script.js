@@ -14,12 +14,12 @@ function gatherData()
     console.log(greetingInput);
     console.log(greetingInputValue);
 
-    const displayFormInputs = document.querySelector("#displayFormInput");
+    const displayFormInputs = document.querySelector("#displayFormInputs");
   
   // M = Modifisere elementer
 
     displayFormInputs.textContent = greetingInputValue;
-    
+   
 
   // S = Sende elementer
 
