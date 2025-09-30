@@ -20,7 +20,7 @@ function gatherData()
     console.log(numberInput);
 
     const displayFormInputs = document.querySelector("#displayFormInputs");
-    const displayNumberInput = document.querySelector("#displayNumberInput");
+    // const displayNumberInput = document.querySelector("#displayNumberInput");
     const displayAllInput = document.querySelector("#displayAllInput");
   
   // Create elements
