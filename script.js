@@ -10,21 +10,30 @@ function gatherData()
   // H = Hente elementer
 
     const greetingInput = document.querySelector("#greetingInput");
-    const nubmerInput = document.querySelector("#numberInput");
-    const greetingInputValue = greetingInput.value;
-    const numberInputValue = nubmerInput.value;
+    const greetingInputValue = greetingInput.value; 
     
+    const numberInput = document.querySelector("#numberInput");
+    const emailInput = document.querySelector("#emailInput").value;
+
     console.log(greetingInput);
     console.log(greetingInputValue);
+    console.log(numberInput);
 
     const displayFormInputs = document.querySelector("#displayFormInputs");
-    const displayNumberInput = document.querySelector("#numberInput");
-    const displayEmailInput = document.querySelector("#emailInput");
+    const displayNumberInput = document.querySelector("#displayNumberInput");
+    const displayAllInput = document.querySelector("#diplayAllInput");
   
+  // Create elements
+  const displayGreeting = document.createElement("p");
+
+
   // M = Modifisere elementer
 
     displayFormInputs.textContent = greetingInputValue;
-    displayNumberInput.textContent = numberInputValue;
+    displayNumberInput.textContent = numberInput.value;
+    displayAllInput.textContent = `${greetingInputValue} ${numberInput.value} ${emailInput}`;
+    displayGreeting.textContent = greetingInpuValue;
+    displayFormInputs.appendChild(displayGreeting);
    
 
   // S = Sende elementer
