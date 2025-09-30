@@ -37,20 +37,24 @@
     <main class="main">
       <!-- Hero / Home -->
       <section id="home" class="hero">
-        <label for="greetingInput"> 
+        <form> 
+          <label for="greetingInput"> 
           <p>Skriv en hilsen :</p>
           <input type="text" name="greetingInput" id="greetingInput" placeholder="Skriv en hilsen" minlength="8">
-        </label>
-        <label for="numberInput">
-          <p>Skriv et tall</p>
-          <input type="number" name="numberInput" id="numberInput" placeholder="Skriv et tall">
-        </label>       
-        <label for="emailInput">
-          <p>Skriv en e-mail adresse</p>
-          <input type="email" name="emailInput" id="emailInput" placeholder="ola@nordmann.no">
-        </label>
-        <!-- <input type="button" value="Send"> -->
-        <button id="submitButton" class="submitButton">Send</button>       
+          </label>
+          <label for="numberInput">
+            <p>Skriv et tall</p>
+            <input type="number" name="numberInput" id="numberInput" placeholder="Skriv et tall" min="2">
+          </label>       
+          <label for="emailInput">
+            <p>Skriv en e-mail adresse</p>
+            <input type="email" name="emailInput" id="emailInput" placeholder="ola@nordmann.no">
+          </label>
+          <!-- <input type="button" value="Send"> -->
+          <button id="submitButton" class="submitButton">Send</button> 
+        </form>
+       
+
         
       </section>
 
