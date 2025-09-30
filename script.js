@@ -35,7 +35,6 @@ function gatherData()
     displayGreeting.textContent = greetingInpuValue;
     displayFormInputs.appendChild(displayGreeting);
    
-
   // S = Sende elementer
 
 }
