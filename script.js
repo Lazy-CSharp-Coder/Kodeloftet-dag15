@@ -17,7 +17,7 @@ function gatherData()
 
     console.log(greetingInput);
     console.log(greetingInputValue);
-    console.log(numberInput);
+    console.log(numberInput.value);
 
     const displayFormInputs = document.querySelector("#displayFormInputs");
     // const displayNumberInput = document.querySelector("#displayNumberInput");
@@ -28,7 +28,6 @@ function gatherData()
 
   // M = Modifisere elementer
 
-    displayFormInputs.textContent = greetingInputValue;
     // displayNumberInput.textContent = numberInput.value;
     displayAllInput.textContent = `${greetingInputValue} ${numberInput.value} ${emailInput}`;
     displayGreeting.textContent = greetingInpuValue;
