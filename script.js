@@ -29,7 +29,7 @@ function gatherData()
   // M = Modifisere elementer
 
     displayFormInputs.textContent = greetingInputValue;
-    displayNumberInput.textContent = numberInput.value;
+    // displayNumberInput.textContent = numberInput.value;
     displayAllInput.textContent = `${greetingInputValue} ${numberInput.value} ${emailInput}`;
     displayGreeting.textContent = greetingInpuValue;
     displayFormInputs.appendChild(displayGreeting);
